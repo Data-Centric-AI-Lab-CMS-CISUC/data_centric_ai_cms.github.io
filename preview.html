@@ -96,14 +96,20 @@
                 if (href && (href.endsWith('.md') || href.includes('.md#'))) {
                     link.onclick = (e) => {
                         e.preventDefault();
-                        // Handle relative paths
-                        let newPath = href;
-                        if (path.includes('/') && !href.startsWith('..')) {
-                            const dir = path.substring(0, path.lastIndexOf('/'));
-                            newPath = dir + '/' + href;
-                        } else if (href.startsWith('..')) {
-                            newPath = href.replace('../', '');
+                        
+                        // Robust relative path resolution
+                        const currentDirParts = path.split('/').slice(0, -1);
+                        const hrefParts = href.split('/');
+                        
+                        for (let part of hrefParts) {
+                            if (part === '..') {
+                                currentDirParts.pop();
+                            } else if (part !== '.' && part !== '') {
+                                currentDirParts.push(part);
+                            }
                         }
+                        
+                        const newPath = currentDirParts.join('/');
                         loadMarkdown(newPath);
                     };
                 }

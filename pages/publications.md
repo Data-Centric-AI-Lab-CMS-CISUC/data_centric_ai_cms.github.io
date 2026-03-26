@@ -1,11 +1,13 @@
 <div align="center">
-  <br>
-  <h1><b>DATA-CENTRIC AI LAB</b></h1>
+  <h1>DATA-CENTRIC AI LAB</h1>
   <p><b>@ CMS-CISUC</b></p>
-  <br>
 </div>
 
+| [Home](../README.md) | [Team](team.md) | [Publications](publications.md) | [Resources](resources.md) | [Events](events.md) | [Projects](projects.md) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+
 ---
+
 
 ## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/library.svg" width="22" height="22" style="vertical-align: middle;"> Full Publication List
 
@@ -192,6 +194,7 @@
 
 ---
 
-<div align="center">
-  <p><a href="../README.md"><img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/arrow-left.svg" width="14" height="14" style="vertical-align: middle;"> Back to Home</a></p>
-</div>
+
+
+| [← Back to Home](../README.md) |
+| :---: |

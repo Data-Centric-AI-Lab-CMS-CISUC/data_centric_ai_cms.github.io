@@ -1,11 +1,13 @@
 <div align="center">
-  <br>
-  <h1><b>DATA-CENTRIC AI LAB</b></h1>
+  <h1>DATA-CENTRIC AI LAB</h1>
   <p><b>@ CMS-CISUC</b></p>
-  <br>
 </div>
 
+| [Home](../../README.md) | [Team](../team.md) | [Publications](../publications.md) | [Resources](../resources.md) | [Events](../events.md) | [Projects](../projects.md) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+
 ---
+
 
 ## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/file-text.svg" width="20" height="20" style="vertical-align: middle;"> Abstract
 Federated learning (FL) is a promising paradigm for privacy-preserving collaborative machine learning. However, ensuring fairness across different groups in FL remains a significant challenge. This survey provides a comprehensive analysis of group fairness in FL, documenting its challenges, providing a taxonomy of current solutions, and identifying key directions for future research.
@@ -18,6 +20,7 @@ Federated learning (FL) is a promising paradigm for privacy-preserving collabora
 
 ---
 
-<div align="center">
-  <p><a href="../publications.md"><img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/arrow-left.svg" width="14" height="14" style="vertical-align: middle;"> Back to Publications</a></p>
-</div>
+
+
+| [← Back to Publications](../publications.md) |
+| :---: |
