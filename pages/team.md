@@ -1,38 +1,79 @@
 <div align="center">
-  <img src="../assets/cisuc_logo.png" alt="CISUC Logo" width="200">
-  <h1>Research Team</h1>
-
-  [**Home**](../README.md) • [**Team**](team.md) • [**Publications**](publications.md) • [**Resources**](resources.md) • [**Events**](events.md) • [**Projects**](projects.md)
+  <br>
+  <h1><b>DATA-CENTRIC AI LAB</b></h1>
+  <p><b>@ CMS-CISUC</b></p>
+  <br>
 </div>
 
 ---
 
-## 👨‍🔬 Core Members
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/id-card.svg" width="22" height="22" style="vertical-align: middle;"> Core Members
 
-| Name | Role |
-| :--- | :--- |
-| **Pedro Henriques Abreu** | Scientific Director |
-| **Teresa Salazar** | PhD |
-| **Diogo Apóstolo** | PhD Student |
-| **Guo Jielong** | PhD Student |
-| **Paulo Cortesão** | PhD Student |
-| **Sancho Simões** | PhD Student |
-| **Rui Matos** | PhD Student |
-| **João Bugalho** | MSc Student |
-| **José Afonso** | MSc Student |
-| **Mariana Guimar** | MSc Student |
-| **Miguel Cruz** | MSc Student |
-| **Tiago Silva** | MSc Student |
-| **Tomé Ferreira** | MSc Student |
-
----
-
-## 🌐 External Collaborators
-
-*We collaborate with a growing network of international partners and industry stakeholders to advance responsible AI.*
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left">Name</th>
+      <th align="left">Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="team/pedro-abreu.md"><b>Pedro Henriques Abreu</b></a></td>
+      <td><img src="https://img.shields.io/badge/Role-Scientific_Director-blue?style=flat-square" alt="Director"></td>
+    </tr>
+    <tr>
+      <td><a href="team/teresa-salazar.md"><b>Teresa Salazar</b></a></td>
+      <td><img src="https://img.shields.io/badge/Role-PhD-green?style=flat-square" alt="PhD"></td>
+    </tr>
+    <tr>
+      <td><a href="team/diogo-apostolo.md"><b>Diogo Apóstolo</b></a></td>
+      <td><img src="https://img.shields.io/badge/Role-PhD_Student-orange?style=flat-square" alt="PhD Student"></td>
+    </tr>
+    <tr>
+      <td><a href="team/guo-jielong.md"><b>Guo Jielong</b></a></td>
+      <td><img src="https://img.shields.io/badge/Role-PhD_Student-orange?style=flat-square" alt="PhD Student"></td>
+    </tr>
+    <tr>
+      <td><a href="team/paulo-cortesao.md"><b>Paulo Cortesão</b></a></td>
+      <td><img src="https://img.shields.io/badge/Role-PhD_Student-orange?style=flat-square" alt="PhD Student"></td>
+    </tr>
+    <tr>
+      <td><a href="team/sancho-simoes.md"><b>Sancho Simões</b></a></td>
+      <td><img src="https://img.shields.io/badge/Role-PhD_Student-orange?style=flat-square" alt="PhD Student"></td>
+    </tr>
+    <tr>
+      <td><a href="team/rui-matos.md"><b>Rui Matos</b></a></td>
+      <td><img src="https://img.shields.io/badge/Role-PhD_Student-orange?style=flat-square" alt="PhD Student"></td>
+    </tr>
+    <tr>
+      <td><b>João Bugalho</b></td>
+      <td><img src="https://img.shields.io/badge/Role-MSc_Student-lightgrey?style=flat-square" alt="MSc Student"></td>
+    </tr>
+    <tr>
+      <td><b>José Afonso</b></td>
+      <td><img src="https://img.shields.io/badge/Role-MSc_Student-lightgrey?style=flat-square" alt="MSc Student"></td>
+    </tr>
+    <tr>
+      <td><b>Mariana Guimar</b></td>
+      <td><img src="https://img.shields.io/badge/Role-MSc_Student-lightgrey?style=flat-square" alt="MSc Student"></td>
+    </tr>
+    <tr>
+      <td><b>Miguel Cruz</b></td>
+      <td><img src="https://img.shields.io/badge/Role-MSc_Student-lightgrey?style=flat-square" alt="MSc Student"></td>
+    </tr>
+    <tr>
+      <td><b>Tiago Silva</b></td>
+      <td><img src="https://img.shields.io/badge/Role-MSc_Student-lightgrey?style=flat-square" alt="MSc Student"></td>
+    </tr>
+    <tr>
+      <td><b>Tomé Ferreira</b></td>
+      <td><img src="https://img.shields.io/badge/Role-MSc_Student-lightgrey?style=flat-square" alt="MSc Student"></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 <div align="center">
-  <p>[Back to Home](../README.md)</p>
+  <p><a href="../README.md"><img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/arrow-left.svg" width="14" height="14" style="vertical-align: middle;"> Back to Home</a></p>
 </div>
