@@ -2,10 +2,10 @@
   <h1>LAB RESOURCES</h1>
   <p>
     <a href="../README.md"><img src="https://img.shields.io/badge/Home-005A9E?style=for-the-badge&logo=homeadvisor&logoColor=white" alt="Home"></a>
-    <a href="team.md"><img src="https://img.shields.io/badge/Team-005A9E?style=for-the-badge&logo=microsoftteams&logoColor=white" alt="Team"></a>
+    <a href="team.md"><img src="https://img.shields.io/badge/Team-005A9E?style=for-the-badge&logo=osf&logoColor=white" alt="Team"></a>
     <a href="publications.md"><img src="https://img.shields.io/badge/Publications-005A9E?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Publications"></a>
     <a href="projects.md"><img src="https://img.shields.io/badge/Projects-005A9E?style=for-the-badge&logo=git&logoColor=white" alt="Projects"></a>
-    <a href="events.md"><img src="https://img.shields.io/badge/Events-005A9E?style=for-the-badge&logo=eventbrite&logoColor=white" alt="Events"></a>
+    <a href="events.md"><img src="https://img.shields.io/badge/Events-005A9E?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Events"></a>
   </p>
 </div>
 
