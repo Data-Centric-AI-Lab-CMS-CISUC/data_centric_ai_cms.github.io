@@ -129,7 +129,13 @@
 
             window.scrollTo(0, 0);
         } catch (error) {
-            contentDiv.innerHTML = `<h1 style="color: #f85149;">Error</h1><p>${error.message}</p>`;
+            let errorMsg = error.message;
+            if (window.location.protocol === 'file:') {
+                errorMsg = "<b>CORS Restriction:</b> You are opening this file via the browser directly (<code>file://</code>). <br><br>" +
+                           "Modern browsers block the <code>fetch</code> API for local files for security reasons. <br><br>" +
+                           "Please run a local server in the terminal to preview correctly: <br><code>npx serve .</code> or <code>python -m http.server 8000</code>";
+            }
+            contentDiv.innerHTML = `<h1 style="color: #f85149;">Error</h1><p>${errorMsg}</p>`;
         }
     }
 
