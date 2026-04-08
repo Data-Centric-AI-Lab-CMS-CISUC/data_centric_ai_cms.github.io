@@ -38,6 +38,7 @@
 
 | Type | Event | Year |
 | :--- | :--- | :---: |
+| <img src="https://img.shields.io/badge/Event-Workshop-green?style=flat-square" alt="Workshop"> | **iMIMIC 2026** - Interpretability of Machine Intelligence in Medical Image Computing | 2026 |
 | <img src="https://img.shields.io/badge/Event-Workshop-green?style=flat-square" alt="Workshop"> | [**iMIMIC 2025** - Interpretability of Machine Intelligence in Medical Image Computing](https://www.imimic-workshop.com/) | 2025 |
 | <img src="https://img.shields.io/badge/Event-Workshop-green?style=flat-square" alt="Workshop"> | [**DCenAI** - Thematic Track on Data-Centric AI (EPIA 2024)](https://www.appia.pt/2024/05/22/rede-appia-data-centric-ai-thematic-track-epia-2024-call-for-late-breaking-papers-deadline-may-31/) | 2024 |
 | <img src="https://img.shields.io/badge/Event-Workshop-green?style=flat-square" alt="Workshop"> | [**iMIMIC 2024** - Interpretability of Machine Intelligence in Medical Image Computing](https://imimic-workshop.com/2024.html) | 2024 |
