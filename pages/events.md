@@ -1,3 +1,9 @@
+---
+layout: default
+title: Lab Events
+---
+
+
 <div align="center">
   <h1>LAB EVENTS</h1>
   <p>
