@@ -8,10 +8,10 @@ title: Lab Events
   <h1>LAB EVENTS</h1>
   <p>
     <a href="../README.md"><img src="https://img.shields.io/badge/Home-005A9E?style=for-the-badge&logo=homeadvisor&logoColor=white" alt="Home"></a>
-    <a href="team.md"><img src="https://img.shields.io/badge/Team-005A9E?style=for-the-badge&logo=osf&logoColor=white" alt="Team"></a>
-    <a href="publications.md"><img src="https://img.shields.io/badge/Publications-005A9E?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Publications"></a>
-    <a href="projects.md"><img src="https://img.shields.io/badge/Projects-005A9E?style=for-the-badge&logo=git&logoColor=white" alt="Projects"></a>
-    <a href="resources.md"><img src="https://img.shields.io/badge/Resources-005A9E?style=for-the-badge&logo=github&logoColor=white" alt="Resources"></a>
+    <a href="team"><img src="https://img.shields.io/badge/Team-005A9E?style=for-the-badge&logo=osf&logoColor=white" alt="Team"></a>
+    <a href="publications"><img src="https://img.shields.io/badge/Publications-005A9E?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Publications"></a>
+    <a href="projects"><img src="https://img.shields.io/badge/Projects-005A9E?style=for-the-badge&logo=git&logoColor=white" alt="Projects"></a>
+    <a href="resources"><img src="https://img.shields.io/badge/Resources-005A9E?style=for-the-badge&logo=github&logoColor=white" alt="Resources"></a>
   </p>
 </div>
 

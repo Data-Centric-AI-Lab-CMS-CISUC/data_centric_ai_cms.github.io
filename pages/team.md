@@ -1,11 +1,16 @@
+---
+layout: default
+title: Lab Team
+---
+
 <div align="center">
   <h1>RESEARCH TEAM</h1>
   <p>
     <a href="../README.md"><img src="https://img.shields.io/badge/Home-005A9E?style=for-the-badge&logo=homeadvisor&logoColor=white" alt="Home"></a>
-    <a href="publications.md"><img src="https://img.shields.io/badge/Publications-005A9E?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Publications"></a>
-    <a href="projects.md"><img src="https://img.shields.io/badge/Projects-005A9E?style=for-the-badge&logo=git&logoColor=white" alt="Projects"></a>
-    <a href="resources.md"><img src="https://img.shields.io/badge/Resources-005A9E?style=for-the-badge&logo=github&logoColor=white" alt="Resources"></a>
-    <a href="events.md"><img src="https://img.shields.io/badge/Events-005A9E?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Events"></a>
+    <a href="publications"><img src="https://img.shields.io/badge/Publications-005A9E?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Publications"></a>
+    <a href="projects"><img src="https://img.shields.io/badge/Projects-005A9E?style=for-the-badge&logo=git&logoColor=white" alt="Projects"></a>
+    <a href="resources"><img src="https://img.shields.io/badge/Resources-005A9E?style=for-the-badge&logo=github&logoColor=white" alt="Resources"></a>
+    <a href="events"><img src="https://img.shields.io/badge/Events-005A9E?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Events"></a>
   </p>
 </div>
 
