@@ -1,17 +1,11 @@
----
-layout: default
-permalink: /
----
 <div align="center">
   <h1>DATA-CENTRIC AI LAB @ CMS-CISUC</h1>
 
 
   <p>
-    <a href="pages/team"><img src="https://img.shields.io/badge/Team-005A9E?style=for-the-badge&logo=osf&logoColor=white" alt="Team"></a>
-    <a href="pages/publications"><img src="https://img.shields.io/badge/Publications-005A9E?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Publications"></a>
-    <a href="pages/projects"><img src="https://img.shields.io/badge/Projects-005A9E?style=for-the-badge&logo=git&logoColor=white" alt="Projects"></a>
-    <a href="pages/resources"><img src="https://img.shields.io/badge/Resources-005A9E?style=for-the-badge&logo=github&logoColor=white" alt="Resources"></a>
-    <a href="pages/events"><img src="https://img.shields.io/badge/Events-005A9E?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Events"></a>
+    <a href="https://data-centric-ai-lab-cms-cisuc.github.io/data-centric-ai-lab-cms-cisuc/">
+      <img src="https://img.shields.io/badge/Visit_Our_Website-005A9E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit Website">
+    </a>
   </p>
 </div>
 
