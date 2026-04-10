@@ -70,7 +70,7 @@
 
     <nav id="nav-menu">
         <strong style="color: #f0f6fc; display: block; margin-bottom: 10px;">Docs Navigation</strong>
-        <a href="javascript:void(0)" onclick="loadMarkdown('README.md')">Home</a>
+        <a href="javascript:void(0)" onclick="loadMarkdown('index.md')">Home</a>
         <a href="javascript:void(0)" onclick="loadMarkdown('pages/team.md')">Team</a>
         <a href="javascript:void(0)" onclick="loadMarkdown('pages/publications.md')">Publications</a>
         <a href="javascript:void(0)" onclick="loadMarkdown('pages/resources.md')">Resources</a>
@@ -89,7 +89,7 @@
             // Normalize path for local fetch
             let fetchPath = path;
             if (fetchPath === '' || fetchPath === '.' || fetchPath.endsWith('/')) {
-                fetchPath = (fetchPath.endsWith('/') ? fetchPath : (fetchPath === '' ? '' : fetchPath + '/')) + 'README.md';
+                fetchPath = (fetchPath.endsWith('/') ? fetchPath : (fetchPath === '' ? '' : fetchPath + '/')) + 'index.md';
             } else if (!fetchPath.toLowerCase().endsWith('.md') && !fetchPath.includes('#')) {
                 fetchPath += '.md';
             }
@@ -158,7 +158,7 @@
         }
 
         // Initial load
-        loadMarkdown('README.md');
+        loadMarkdown('index.md');
     </script>
 
 </body>
