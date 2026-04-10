@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab Website Local Preview</title>
     <!-- GitHub Markdown CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
     <!-- Marked.js for Markdown parsing -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
@@ -16,6 +18,7 @@
             display: flex;
             justify-content: center;
         }
+
         .markdown-body {
             box-sizing: border-box;
             min-width: 200px;
@@ -26,11 +29,13 @@
             border-radius: 6px;
             color: #1f2328;
         }
+
         @media (max-width: 767px) {
             .markdown-body {
                 padding: 15px;
             }
         }
+
         #nav-menu {
             position: fixed;
             top: 20px;
@@ -41,116 +46,121 @@
             border-radius: 6px;
             z-index: 1000;
         }
+
         #nav-menu a {
             display: block;
             color: #0969da;
             text-decoration: none;
             margin-bottom: 8px;
-            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             font-size: 14px;
         }
+
         #nav-menu a:hover {
             text-decoration: underline;
         }
+
         #nav-menu strong {
             color: #1f2328;
         }
     </style>
 </head>
+
 <body>
 
-<nav id="nav-menu">
-    <strong style="color: #f0f6fc; display: block; margin-bottom: 10px;">Docs Navigation</strong>
-    <a href="javascript:void(0)" onclick="loadMarkdown('README.md')">Home</a>
-    <a href="javascript:void(0)" onclick="loadMarkdown('pages/team.md')">Team</a>
-    <a href="javascript:void(0)" onclick="loadMarkdown('pages/publications.md')">Publications</a>
-    <a href="javascript:void(0)" onclick="loadMarkdown('pages/resources.md')">Resources</a>
-    <a href="javascript:void(0)" onclick="loadMarkdown('pages/events.md')">Events</a>
-    <a href="javascript:void(0)" onclick="loadMarkdown('pages/projects.md')">Projects</a>
-</nav>
+    <nav id="nav-menu">
+        <strong style="color: #f0f6fc; display: block; margin-bottom: 10px;">Docs Navigation</strong>
+        <a href="javascript:void(0)" onclick="loadMarkdown('README.md')">Home</a>
+        <a href="javascript:void(0)" onclick="loadMarkdown('pages/team.md')">Team</a>
+        <a href="javascript:void(0)" onclick="loadMarkdown('pages/publications.md')">Publications</a>
+        <a href="javascript:void(0)" onclick="loadMarkdown('pages/resources.md')">Resources</a>
+        <a href="javascript:void(0)" onclick="loadMarkdown('pages/events.md')">Events</a>
+        <a href="javascript:void(0)" onclick="loadMarkdown('pages/projects.md')">Projects</a>
+    </nav>
 
-<div id="content" class="markdown-body">
-    Loading content...
-</div>
+    <div id="content" class="markdown-body">
+        Loading content...
+    </div>
 
-<script>
-    async function loadMarkdown(path) {
-        const contentDiv = document.getElementById('content');
-        
-        // Normalize path for local fetch
-        let fetchPath = path;
-        if (fetchPath === '' || fetchPath === '.' || fetchPath.endsWith('/')) {
-            fetchPath = (fetchPath.endsWith('/') ? fetchPath : (fetchPath === '' ? '' : fetchPath + '/')) + 'README.md';
-        } else if (!fetchPath.toLowerCase().endsWith('.md') && !fetchPath.includes('#')) {
-            fetchPath += '.md';
-        }
+    <script>
+        async function loadMarkdown(path) {
+            const contentDiv = document.getElementById('content');
 
-        try {
-            const response = await fetch(fetchPath + '?t=' + Date.now());
-            if (!response.ok) throw new Error('Failed to load ' + path);
-            const text = await response.text();
-            
-            // Configure marked to handle relative links
-            marked.setOptions({
-                gfm: true,
-                breaks: true
-            });
-
-            contentDiv.innerHTML = marked.parse(text);
-            
-            // Intercept internal links to stay in preview
-            const links = contentDiv.getElementsByTagName('a');
-            for (let link of links) {
-                const href = link.getAttribute('href');
-                if (href && !href.startsWith('http') && !href.startsWith('mailto:') && !href.startsWith('#')) {
-                    link.onclick = (e) => {
-                        e.preventDefault();
-                        
-                        // Robust relative path resolution
-                        const currentDirParts = path.split('/').slice(0, -1);
-                        const hrefParts = href.split('#')[0].split('/'); // Ignore anchors for path resolution
-                        
-                        for (let part of hrefParts) {
-                            if (part === '..') {
-                                currentDirParts.pop();
-                            } else if (part !== '.' && part !== '') {
-                                currentDirParts.push(part);
-                            }
-                        }
-                        
-                        const newPath = currentDirParts.join('/');
-                        loadMarkdown(newPath);
-                    };
-                }
+            // Normalize path for local fetch
+            let fetchPath = path;
+            if (fetchPath === '' || fetchPath === '.' || fetchPath.endsWith('/')) {
+                fetchPath = (fetchPath.endsWith('/') ? fetchPath : (fetchPath === '' ? '' : fetchPath + '/')) + 'README.md';
+            } else if (!fetchPath.toLowerCase().endsWith('.md') && !fetchPath.includes('#')) {
+                fetchPath += '.md';
             }
 
-            // Fix image paths
-            const images = contentDiv.getElementsByTagName('img');
-            for (let img of images) {
-                const src = img.getAttribute('src');
-                if (src && !src.startsWith('http') && !src.startsWith('/')) {
-                     if (path.includes('/')) {
-                        const dir = path.substring(0, path.lastIndexOf('/'));
-                        img.src = dir + '/' + src;
+            try {
+                const response = await fetch(fetchPath + '?t=' + Date.now());
+                if (!response.ok) throw new Error('Failed to load ' + path);
+                const text = await response.text();
+
+                // Configure marked to handle relative links
+                marked.setOptions({
+                    gfm: true,
+                    breaks: true
+                });
+
+                contentDiv.innerHTML = marked.parse(text);
+
+                // Intercept internal links to stay in preview
+                const links = contentDiv.getElementsByTagName('a');
+                for (let link of links) {
+                    const href = link.getAttribute('href');
+                    if (href && !href.startsWith('http') && !href.startsWith('mailto:') && !href.startsWith('#')) {
+                        link.onclick = (e) => {
+                            e.preventDefault();
+
+                            // Robust relative path resolution
+                            const currentDirParts = path.split('/').slice(0, -1);
+                            const hrefParts = href.split('#')[0].split('/'); // Ignore anchors for path resolution
+
+                            for (let part of hrefParts) {
+                                if (part === '..') {
+                                    currentDirParts.pop();
+                                } else if (part !== '.' && part !== '') {
+                                    currentDirParts.push(part);
+                                }
+                            }
+
+                            const newPath = currentDirParts.join('/');
+                            loadMarkdown(newPath);
+                        };
                     }
                 }
-            }
 
-            window.scrollTo(0, 0);
-        } catch (error) {
-            let errorMsg = error.message;
-            if (window.location.protocol === 'file:') {
-                errorMsg = "<b>CORS Restriction:</b> You are opening this file via the browser directly (<code>file://</code>). <br><br>" +
-                           "Modern browsers block the <code>fetch</code> API for local files for security reasons. <br><br>" +
-                           "Please run a local server in the terminal to preview correctly: <br><code>npx serve .</code> or <code>python -m http.server 8000</code>";
+                // Fix image paths
+                const images = contentDiv.getElementsByTagName('img');
+                for (let img of images) {
+                    const src = img.getAttribute('src');
+                    if (src && !src.startsWith('http') && !src.startsWith('/')) {
+                        if (path.includes('/')) {
+                            const dir = path.substring(0, path.lastIndexOf('/'));
+                            img.src = dir + '/' + src;
+                        }
+                    }
+                }
+
+                window.scrollTo(0, 0);
+            } catch (error) {
+                let errorMsg = error.message;
+                if (window.location.protocol === 'file:') {
+                    errorMsg = "<b>CORS Restriction:</b> You are opening this file via the browser directly (<code>file://</code>). <br><br>" +
+                        "Modern browsers block the <code>fetch</code> API for local files for security reasons. <br><br>" +
+                        "Please run a local server in the terminal to preview correctly: <br><code>npx serve .</code> or <code>python -m http.server 8000</code>";
+                }
+                contentDiv.innerHTML = `<h1 style="color: #f85149;">Error</h1><p>${errorMsg}</p>`;
             }
-            contentDiv.innerHTML = `<h1 style="color: #f85149;">Error</h1><p>${errorMsg}</p>`;
         }
-    }
 
-    // Initial load
-    loadMarkdown('README.md');
-</script>
+        // Initial load
+        loadMarkdown('README.md');
+    </script>
 
 </body>
+
 </html>
