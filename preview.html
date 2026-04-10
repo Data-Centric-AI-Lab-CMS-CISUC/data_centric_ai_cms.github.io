@@ -76,8 +76,17 @@
 <script>
     async function loadMarkdown(path) {
         const contentDiv = document.getElementById('content');
+        
+        // Normalize path for local fetch
+        let fetchPath = path;
+        if (fetchPath === '' || fetchPath === '.' || fetchPath.endsWith('/')) {
+            fetchPath = (fetchPath.endsWith('/') ? fetchPath : (fetchPath === '' ? '' : fetchPath + '/')) + 'README.md';
+        } else if (!fetchPath.toLowerCase().endsWith('.md') && !fetchPath.includes('#')) {
+            fetchPath += '.md';
+        }
+
         try {
-            const response = await fetch(path + '?t=' + Date.now());
+            const response = await fetch(fetchPath + '?t=' + Date.now());
             if (!response.ok) throw new Error('Failed to load ' + path);
             const text = await response.text();
             
@@ -93,13 +102,13 @@
             const links = contentDiv.getElementsByTagName('a');
             for (let link of links) {
                 const href = link.getAttribute('href');
-                if (href && (href.endsWith('.md') || href.includes('.md#'))) {
+                if (href && !href.startsWith('http') && !href.startsWith('mailto:') && !href.startsWith('#')) {
                     link.onclick = (e) => {
                         e.preventDefault();
                         
                         // Robust relative path resolution
                         const currentDirParts = path.split('/').slice(0, -1);
-                        const hrefParts = href.split('/');
+                        const hrefParts = href.split('#')[0].split('/'); // Ignore anchors for path resolution
                         
                         for (let part of hrefParts) {
                             if (part === '..') {

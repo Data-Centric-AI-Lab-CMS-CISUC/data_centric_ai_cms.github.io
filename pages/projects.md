@@ -6,7 +6,7 @@ title: Lab Projects
 <div align="center">
   <h1>RESEARCH PROJECTS</h1>
   <p>
-    <a href="../README.md"><img src="https://img.shields.io/badge/Home-005A9E?style=for-the-badge&logo=homeadvisor&logoColor=white" alt="Home"></a>
+    <a href="../"><img src="https://img.shields.io/badge/Home-005A9E?style=for-the-badge&logo=homeadvisor&logoColor=white" alt="Home"></a>
     <a href="team"><img src="https://img.shields.io/badge/Team-005A9E?style=for-the-badge&logo=osf&logoColor=white" alt="Team"></a>
     <a href="publications"><img src="https://img.shields.io/badge/Publications-005A9E?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Publications"></a>
     <a href="resources"><img src="https://img.shields.io/badge/Resources-005A9E?style=for-the-badge&logo=github&logoColor=white" alt="Resources"></a>
@@ -34,5 +34,5 @@ Our research is proudly supported by **CISUC** and the **University of Coimbra**
 
 
 
-| [← Back to Home](../README.md) |
+| [← Back to Home](../) |
 | :---: |

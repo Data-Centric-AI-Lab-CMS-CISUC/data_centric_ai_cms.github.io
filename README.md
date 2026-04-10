@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <div align="center">
   <h1>DATA-CENTRIC AI LAB @ CMS-CISUC</h1>
 
