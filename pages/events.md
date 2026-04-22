@@ -36,6 +36,7 @@ title: Lab Events
 
 | Type | Event | Year |
 | :--- | :--- | :---: |
+| <img src="https://img.shields.io/badge/Event-Tutorial-orange?style=flat-square" alt="Tutorial"> | [**IJCAI 2026** - Data Centric AI: Addressing Missing Data Imputation in Image and Tabular Contexts](https://2026.ijcai.org/) | 2026 |
 | <img src="https://img.shields.io/badge/Event-Tutorial-orange?style=flat-square" alt="Tutorial"> | [**ECAI 2024** - A Multi-view panorama of Data-Centric AI](https://ecai2024.eu/) | 2024 |
 
 <br>
