@@ -34,6 +34,7 @@ title: Lab Team
 | **João Bugalho** | <img src="https://img.shields.io/badge/-MSc%20Student-lightgrey?style=flat-square" alt="MSc Student"> |
 | **José Afonso** | <img src="https://img.shields.io/badge/-MSc%20Student-lightgrey?style=flat-square" alt="MSc Student"> |
 | **Mariana Guimarães** | <img src="https://img.shields.io/badge/-MSc%20Student-lightgrey?style=flat-square" alt="MSc Student"> |
+| **Mariana Guiomar** | <img src="https://img.shields.io/badge/-MSc%20Student-lightgrey?style=flat-square" alt="MSc Student"> |
 | **Miguel Cruz** | <img src="https://img.shields.io/badge/-MSc%20Student-lightgrey?style=flat-square" alt="MSc Student"> |
 | **Tiago Silva** | <img src="https://img.shields.io/badge/-MSc%20Student-lightgrey?style=flat-square" alt="MSc Student"> |
 | **Tomé Ferreira** | <img src="https://img.shields.io/badge/-MSc%20Student-lightgrey?style=flat-square" alt="MSc Student"> |
