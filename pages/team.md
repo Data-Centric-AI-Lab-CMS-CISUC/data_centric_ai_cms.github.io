@@ -22,6 +22,8 @@ title: Lab Team
 | Name | Role |
 | :--- | :--- |
 | <a href="https://www.cisuc.uc.pt/en/people/Pedro%20Henriques%20Abreu"><b>Pedro Henriques Abreu</b></a> | <img src="https://img.shields.io/badge/-Core-005A9E?style=flat-square" alt="Core"> <img src="https://img.shields.io/badge/-Scientific%20Director-0078D4?style=flat-square" alt="Scientific Director"> <img src="https://img.shields.io/badge/-PhD-008AD7?style=flat-square" alt="PhD"> |
+| <a href="https://www.cisuc.uc.pt/en/people/e-silva"><b>Eliezer de Souza da Silva</b></a> | <img src="https://img.shields.io/badge/-Core-005A9E?style=flat-square" alt="Core"> <img src="https://img.shields.io/badge/-PhD-0078D4?style=flat-square" alt="PhD"> |
+| <a href="https://www.cisuc.uc.pt/en/people/marco-veloso"><b>Marco Veloso</b></a> | <img src="https://img.shields.io/badge/-Core-005A9E?style=flat-square" alt="Core"> <img src="https://img.shields.io/badge/-PhD-0078D4?style=flat-square" alt="PhD"> |
 | <a href="https://www.cisuc.uc.pt/en/people/penousal-machado"><b>Penousal Machado</b></a> | <img src="https://img.shields.io/badge/-Core-005A9E?style=flat-square" alt="Core"> <img src="https://img.shields.io/badge/-PhD-0078D4?style=flat-square" alt="PhD"> |
 | <a href="https://www.cisuc.uc.pt/en/people/rui-pedro-paiva"><b>Rui Pedro Paiva</b></a> | <img src="https://img.shields.io/badge/-Core-005A9E?style=flat-square" alt="Core"> <img src="https://img.shields.io/badge/-PhD-0078D4?style=flat-square" alt="PhD"> |
 | <a href="https://www.cisuc.uc.pt/en/people/t-salazar"><b>Teresa Salazar</b></a> | <img src="https://img.shields.io/badge/-Core-005A9E?style=flat-square" alt="Core"> <img src="https://img.shields.io/badge/-PhD-0078D4?style=flat-square" alt="PhD"> |

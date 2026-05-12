@@ -22,6 +22,7 @@ title: Lab Publications
 
 | Type | Publication Details | Year |
 | :--- | :--- | :---: |
+| <img src="https://img.shields.io/badge/Paper-Journal-blue?style=flat-square" alt="Journal"> | [**Fairness in machine learning pipelines: Guided interventions with the fairforge tool**](https://doi.org/10.1016/j.neucom.2026.133868)<br>Emanuel Roque, Miriam Santos, Penousal Machado, Pedro Henriques Abreu \| *Neurocomputing* | 2026 |
 | <img src="https://img.shields.io/badge/Paper-Journal-blue?style=flat-square" alt="Journal"> | [**A survey on group fairness in federated learning: Challenges, taxonomy of solutions and directions for future research**](https://doi.org/10.1007/s10462-025-11475-5)<br>Teresa Salazar, Helder Araújo, Alberto Cano, Pedro Henriques Abreu \| *Artificial Intelligence Review* | 2026 |
 | <img src="https://img.shields.io/badge/Paper-Journal-blue?style=flat-square" alt="Journal"> | [**GEPFNet: A Group Equivariant Feature Extraction with Parallel Fusion Neural Network for Solar Photovoltaic Fault Classification**](https://doi.org/10.1016/j.inffus.2025.104014)<br>Jielong Guo, Benjamin Ng, Chan-Tong Lam, Pedro Henriques Abreu \| *Information Fusion* | 2026 |
 | <img src="https://img.shields.io/badge/Paper-Journal-blue?style=flat-square" alt="Journal"> | [**Studying the robustness of data imputation methodologies against adversarial attacks**](https://doi.org/10.1016/j.cose.2025.104574)<br>Arthur Dantas Mangussi, Ricardo Cardoso Pereira, Ana Carolina Lorena, Miriam Seoane Santos, Pedro Henriques Abreu \| *Computers & Security* | 2025 |
@@ -48,12 +49,14 @@ title: Lab Publications
 
 | Type | Publication Details | Year |
 | :--- | :--- | :---: |
+| <img src="https://img.shields.io/badge/Paper-Conference-green?style=flat-square" alt="Conference"> | [**MATH-PT: A Math Reasoning Benchmark for European and Brazilian Portuguese**](https://aclanthology.org/2026.propor-1.102/)<br>T. Teixeira, A. C. Erthal, J. Belieni, B. Canaverde, D. Mesquita, M. Faria, E. da Silva, A. F. T. Martins \| *PROPOR 2026* | 2026 |
 | <img src="https://img.shields.io/badge/Paper-Conference-green?style=flat-square" alt="Conference"> | [**An interpretable human-in-the-loop process to improve medical image classification**](https://link.springer.com/chapter/10.1007/978-3-031-58547-0_15)<br>Joana Cristo Santos, Miriam Seoane Santos, Pedro Henriques Abreu \| *IDA 2024* | 2024 |
 | <img src="https://img.shields.io/badge/Paper-Conference-green?style=flat-square" alt="Conference"> | [**Reconstruction of Mammography Projections using Image-to-Image translation techniques**](https://www.esann.org/sites/default/files/proceedings/2024/ES2024-62.pdf)<br>Joana Cristo Santos, et al. \| *ESANN 2024* | 2024 |
 | <img src="https://img.shields.io/badge/Paper-Conference-green?style=flat-square" alt="Conference"> | [**Data-centric federated learning for anomaly detection in smart grids**](https://ieeexplore.ieee.org/abstract/document/10574962)<br>Dylan Perdigão, Tiago Cruz, Paulo Simões, Pedro Henriques Abreu \| *IEEE NOMS 2024* | 2024 |
 | <img src="https://img.shields.io/badge/Paper-Conference-green?style=flat-square" alt="Conference"> | [**Automatic delta-adjustment method applied to missing not at random imputation**](https://link.springer.com/chapter/10.1007/978-3-031-35995-8_34)<br>Ricardo Cardoso Pereira, Pedro Pereira Rodrigues, Mário AT Figueiredo, Pedro Henriques Abreu \| *ICCS 2023* | 2023 |
 | <img src="https://img.shields.io/badge/Paper-Conference-green?style=flat-square" alt="Conference"> | [**Siamese autoencoder-based approach for missing data imputation**](https://link.springer.com/chapter/10.1007/978-3-031-35995-8_3)<br>Ricardo Cardoso Pereira, Pedro Henriques Abreu, Pedro Pereira Rodrigues \| *ICCS 2023* | 2023 |
 | <img src="https://img.shields.io/badge/Paper-Conference-green?style=flat-square" alt="Conference"> | [**Fair-fate: Fair federated learning with momentum**](https://link.springer.com/chapter/10.1007/978-3-031-35995-8_37)<br>Teresa Salazar, Miguel Fernandes, Helder Araújo, Pedro Henriques Abreu \| *ICCS 2023* | 2023 |
+| <img src="https://img.shields.io/badge/Paper-Conference-green?style=flat-square" alt="Conference"> | [**Time is of the Essence: A Joint Hierarchical RNN and Point Process Model for Time and Item Predictions**](https://doi.org/10.1145/3289600.3290987)<br>B. Vassøy, M. Ruocco, E. da Silva, E. Aune \| *WSDM 2019* | 2019 |
 
 <br>
 
@@ -61,6 +64,7 @@ title: Lab Publications
 
 | Type | Publication Details | Year |
 | :--- | :--- | :---: |
+| <img src="https://img.shields.io/badge/Paper-ArXiv-orange?style=flat-square" alt="ArXiv"> | [**On the Identifiability of Tensor Ranks via Prior Predictive Matching**](https://arxiv.org/abs/2510.14523)<br>E. da Silva, A. Klami, D. Mesquita, I. Urteaga \| *ArXiv 2026* | 2026 |
 | <img src="https://img.shields.io/badge/Paper-ArXiv-orange?style=flat-square" alt="ArXiv"> | [**LLMs for Missing Data Imputation: Understanding behavior, hallucination effects and control mechanisms**](https://arxiv.org/abs/2603.22332)<br>Arthur Dantas Mangussi, et al. \| *ArXiv 2026* | 2026 |
 | <img src="https://img.shields.io/badge/Paper-ArXiv-orange?style=flat-square" alt="ArXiv"> | [**Evaluating Post-hoc Interpretability with Intrinsic Interpretability**](https://arxiv.org/abs/2305.03002)<br>José Pereira Amorim, Pedro Henriques Abreu, João Santos, Henning Müller \| *ArXiv 2023* | 2023 |
 
