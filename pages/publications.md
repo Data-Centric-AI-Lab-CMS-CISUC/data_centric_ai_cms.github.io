@@ -49,6 +49,7 @@ title: Lab Publications
 
 | Type | Publication Details | Year |
 | :--- | :--- | :---: |
+| <img src="https://img.shields.io/badge/Paper-Conference-green?style=flat-square" alt="Conference"> | [**On the Identifiability of Tensor Ranks via Prior Predictive Matching**](https://openreview.net/forum?id=wGHcWy5Te1)<br>Eliezer de Souza da Silva, Arto Klami, Diego Mesquita, Iñigo Urteaga \| *AISTATS 2026* | 2026 |
 | <img src="https://img.shields.io/badge/Paper-Conference-green?style=flat-square" alt="Conference"> | [**MATH-PT: A Math Reasoning Benchmark for European and Brazilian Portuguese**](https://aclanthology.org/2026.propor-1.102/)<br>T. Teixeira, A. C. Erthal, J. Belieni, B. Canaverde, D. Mesquita, M. Faria, E. da Silva, A. F. T. Martins \| *PROPOR 2026* | 2026 |
 | <img src="https://img.shields.io/badge/Paper-Conference-green?style=flat-square" alt="Conference"> | [**An interpretable human-in-the-loop process to improve medical image classification**](https://link.springer.com/chapter/10.1007/978-3-031-58547-0_15)<br>Joana Cristo Santos, Miriam Seoane Santos, Pedro Henriques Abreu \| *IDA 2024* | 2024 |
 | <img src="https://img.shields.io/badge/Paper-Conference-green?style=flat-square" alt="Conference"> | [**Reconstruction of Mammography Projections using Image-to-Image translation techniques**](https://www.esann.org/sites/default/files/proceedings/2024/ES2024-62.pdf)<br>Joana Cristo Santos, et al. \| *ESANN 2024* | 2024 |
@@ -64,7 +65,6 @@ title: Lab Publications
 
 | Type | Publication Details | Year |
 | :--- | :--- | :---: |
-| <img src="https://img.shields.io/badge/Paper-ArXiv-orange?style=flat-square" alt="ArXiv"> | [**On the Identifiability of Tensor Ranks via Prior Predictive Matching**](https://arxiv.org/abs/2510.14523)<br>E. da Silva, A. Klami, D. Mesquita, I. Urteaga \| *ArXiv 2026* | 2026 |
 | <img src="https://img.shields.io/badge/Paper-ArXiv-orange?style=flat-square" alt="ArXiv"> | [**LLMs for Missing Data Imputation: Understanding behavior, hallucination effects and control mechanisms**](https://arxiv.org/abs/2603.22332)<br>Arthur Dantas Mangussi, et al. \| *ArXiv 2026* | 2026 |
 | <img src="https://img.shields.io/badge/Paper-ArXiv-orange?style=flat-square" alt="ArXiv"> | [**Evaluating Post-hoc Interpretability with Intrinsic Interpretability**](https://arxiv.org/abs/2305.03002)<br>José Pereira Amorim, Pedro Henriques Abreu, João Santos, Henning Müller \| *ArXiv 2023* | 2023 |
 
